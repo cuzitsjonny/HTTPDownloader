@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this._FormBase = new System.Windows.Forms.TableLayoutPanel();
             this._DownloadButton = new System.Windows.Forms.Button();
             this._SourceLabel = new System.Windows.Forms.Label();
             this._DestinationLabel = new System.Windows.Forms.Label();
@@ -37,39 +37,39 @@
             this._ProgressLabel = new System.Windows.Forms.Label();
             this._SourceField = new System.Windows.Forms.RichTextBox();
             this._DestinationField = new System.Windows.Forms.RichTextBox();
-            this.tableLayoutPanel1.SuspendLayout();
+            this._FormBase.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // _FormBase
             // 
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Controls.Add(this._DownloadButton, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this._SourceLabel, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this._DestinationLabel, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this._ProgressBar, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this._DestinationButton, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this._ProgressLabel, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this._SourceField, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this._DestinationField, 1, 1);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(674, 270);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this._FormBase.ColumnCount = 4;
+            this._FormBase.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.Controls.Add(this._DownloadButton, 1, 3);
+            this._FormBase.Controls.Add(this._SourceLabel, 0, 0);
+            this._FormBase.Controls.Add(this._DestinationLabel, 0, 1);
+            this._FormBase.Controls.Add(this._ProgressBar, 1, 2);
+            this._FormBase.Controls.Add(this._DestinationButton, 2, 1);
+            this._FormBase.Controls.Add(this._ProgressLabel, 0, 2);
+            this._FormBase.Controls.Add(this._SourceField, 1, 0);
+            this._FormBase.Controls.Add(this._DestinationField, 1, 1);
+            this._FormBase.Dock = System.Windows.Forms.DockStyle.Fill;
+            this._FormBase.Location = new System.Drawing.Point(0, 0);
+            this._FormBase.Name = "_FormBase";
+            this._FormBase.Padding = new System.Windows.Forms.Padding(5);
+            this._FormBase.RowCount = 4;
+            this._FormBase.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this._FormBase.Size = new System.Drawing.Size(674, 270);
+            this._FormBase.TabIndex = 0;
             // 
             // _DownloadButton
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this._DownloadButton, 2);
+            this._FormBase.SetColumnSpan(this._DownloadButton, 2);
             this._DownloadButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this._DownloadButton.Enabled = false;
             this._DownloadButton.Location = new System.Drawing.Point(174, 203);
@@ -106,7 +106,7 @@
             // 
             // _ProgressBar
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this._ProgressBar, 3);
+            this._FormBase.SetColumnSpan(this._ProgressBar, 3);
             this._ProgressBar.Dock = System.Windows.Forms.DockStyle.Fill;
             this._ProgressBar.Enabled = false;
             this._ProgressBar.Location = new System.Drawing.Point(174, 144);
@@ -142,7 +142,7 @@
             // 
             // _SourceField
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this._SourceField, 3);
+            this._FormBase.SetColumnSpan(this._SourceField, 3);
             this._SourceField.Dock = System.Windows.Forms.DockStyle.Fill;
             this._SourceField.Location = new System.Drawing.Point(174, 8);
             this._SourceField.Name = "_SourceField";
@@ -153,7 +153,7 @@
             // 
             // _DestinationField
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this._DestinationField, 2);
+            this._FormBase.SetColumnSpan(this._DestinationField, 2);
             this._DestinationField.Dock = System.Windows.Forms.DockStyle.Fill;
             this._DestinationField.Location = new System.Drawing.Point(174, 73);
             this._DestinationField.Name = "_DestinationField";
@@ -167,18 +167,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(674, 270);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this._FormBase);
             this.Name = "MainForm";
             this.Text = "HTTP(S) Downloader";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this._FormBase.ResumeLayout(false);
+            this._FormBase.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel _FormBase;
         private System.Windows.Forms.Button _DownloadButton;
         private System.Windows.Forms.Label _SourceLabel;
         private System.Windows.Forms.Label _DestinationLabel;
